@@ -6,9 +6,7 @@ const prefix = "404 "
 
 client.on('ready', () => {
   console.log('I am ready!');
-  /*client.channels.get('367085951177981973').send("I am awake!")
-  client.channels.get('376112335103721493').send("I am awake!")
-  client.channels.get("289202519316496394").send("I am awake!")*/
+  client.channels.get('473634162381684737').send("I am awake!");
   client.user.setGame("being worked on by Max :)","https://twitch.tv/truexpixels");
 
 
