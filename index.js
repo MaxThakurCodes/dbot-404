@@ -6,7 +6,7 @@ const prefix = "404 "
 
 client.on('ready', () => {
   console.log('I am ready!');
-  client.channels.get('473634162381684737').send("I am awake!");
+  client.channels.get('473634162381684737').send("I am awake!")
   client.user.setGame("being worked on by Max :)","https://twitch.tv/truexpixels");
 
 
@@ -29,7 +29,7 @@ client.on('message', message => {
             break;
     case "embed":
         var embed = new Discord.RichEmbed()
-        .addField("hey ", `${message.content}`)
+        .addField("hey ", `${message.content.split(" ").slice(2).join(" ");}`)
         .setColor(0x03A9F4)
         message.channel.sendEmbed(embed)
         break;
