@@ -29,7 +29,7 @@ client.on('message', message => {
             break;
     case "embed":
         var embed = new Discord.RichEmbed()
-        .addField("hey ", `${message.content.split(" ").slice(2).join(" ");}`)
+        .addField("hey ", `${message.content.split(" ").slice(2).join(" ")}`)
         .setColor(0x03A9F4)
         message.channel.sendEmbed(embed)
         break;
