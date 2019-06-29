@@ -153,4 +153,4 @@ client.on('message', function (message) {
 });
 
 
-client.login('Mzc1OTg0NDYyMDkxMjU1ODEw.XRcgyw.fNeanbdfjPexRdpnvzS2tbhYbU4');
+client.login(process.env.TOKEN);
