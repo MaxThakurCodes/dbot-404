@@ -1,2 +1,3 @@
-+# dbot-404
-+heroku 24/7 hosting
+This is a discord bot. 
+I made it a while ago...
+Add this discord bot to your server: https://discordapp.com/oauth2/authorize?client_id=375984462091255810&scope=bot&permissions=8 
