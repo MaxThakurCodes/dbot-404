@@ -6,7 +6,7 @@
   "scripts": {
     "start": ""
   },
-  "author": "max thakur",
+  "author": "Max Thakur",
   "license": "ISC",
   "dependencies": {
     "beautify": "0.0.8",
