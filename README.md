@@ -1,10 +1,10 @@
 # Welcome!
   Hey, this is a discord bot called "404 bot" I open sourced the code because I felt like I stopped using discord bots as a     source of income!
   ## How to use this
-   Download the latest version bot from [here](https://github.com/maxistheadmin/dbot-404/releases).
-   Unzip it then make sure you have npm & node installed then run `npm install`.
-   Put your token in config.json, and define your prefix also in there.
-   Finally, run `node app.js` and voila there it should be running!.
+   Download the latest version bot from [here](https://github.com/maxistheadmin/dbot-404/releases).                           
+   Unzip it then make sure you have npm & node installed then run `npm install`.                                               
+   Put your token in config.json, and define your prefix also in there.                                                       
+   Finally, run `node app.js` and voila there it should be running!.                                                           
   ## Have any reccommendations?
    Make an issue and just list what you want me to make and Ill get around to it in my free time!
   ## Have any questions?
