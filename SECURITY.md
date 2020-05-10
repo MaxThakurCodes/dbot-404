@@ -1,7 +1,7 @@
 # Security Policy
 Hey, thanks for helping me out by testing my code, this repo is gonna become more active.
 ## Reporting a Vulnerability
-Make an issue explaining the vulnerability, maybe provide a link to the discovered vulnerability. Finally suggest the line that needs to be updated!
+Make an issue explaining the vulnerability, make the title `VULNERABILITY Filename`. Suggest the line that needs to be updated! 
 
 ## Supported Versions
 
