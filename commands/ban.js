@@ -14,7 +14,6 @@ if (message.member.hasPermission("ADMINISTRATOR")) {
           .trim()
           .split(/ +/g);
         const command = args.shift().toLowerCase();
-        console.log(args);
         let user = args[0];
         let user_name = client.fetchUser(user);
         let reason = args[1];
