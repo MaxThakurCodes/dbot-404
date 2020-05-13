@@ -12,4 +12,3 @@ currently being supported with security updates.
 | ------- | ------------------ | --------------                                   |
 | 0.1     | :white_check_mark: | All the issues brought up by github              |
 | < 0.0.x | :x:                | None issues as none were brought up              |
- 
