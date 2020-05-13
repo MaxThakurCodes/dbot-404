@@ -79,7 +79,9 @@ client.on("message", async message => {
       rl.close();
     });
   }
-  if (!message.content.startsWith(prefix) || message.author.bot) return;
+  if (!message.content.startsWith(prefix) || message.author.bot) {
+    return;
+  }
   var args = message.content.substring(prefix.length).split(" ");
   
 });
