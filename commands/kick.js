@@ -13,10 +13,12 @@ module.exports = class kick {
       );
       if (!kUser) return message.channel.send("Couldn't find that user!");
       let kReason = args.join(" ").slice(23);
-      if (!message.member.hasPermission("MANAGE_MESSAGES"))
+      if (!message.member.hasPermission("MANAGE_MESSAGES")) {
         return message.channel.send("Who are you again?");
-      if (kUser.hasPermission("MANAGE_MESSAGES"))
+      }
+      if (kUser.hasPermission("MANAGE_MESSAGES")) {
         return message.channel.send("Can't do that buddy! Sorry!");
+      }
 
       let kickEmbed = new Discord.RichEmbed()
         .setTitle("[LOGS] Kick")
