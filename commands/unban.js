@@ -57,4 +57,4 @@ if (message.member.hasPermission("ADMINISTRATOR")) {
         message.channel.send("I'm sorry who are you?");
       }
     }
-}
+};
