@@ -43,4 +43,4 @@ module.exports = class kick {
       message.guild.member(kUser).kick(kReason);
       logsChannel.send(kickEmbed);
     }
-}
+};
