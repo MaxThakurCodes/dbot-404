@@ -2,8 +2,8 @@ const config = require("../config/config.json");
 const prefix = config.prefix;
 module.exports = class kick {
     constructor() {
-        this.name = 'kick',
-            this.alias = ["ki"],
+        this.name = "kick",
+            this.alias = ["k"],
             this.usage = `${prefix}kick (user) (reason)`
     }
 
