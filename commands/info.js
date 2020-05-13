@@ -3,7 +3,7 @@ const config = require("../config/config.json");
 const prefix = config.prefix;
 module.exports = class info {
     constructor() {
-        this.name = 'info',
+        this.name = "info",
             this.alias = ["i", 'in'],
             this.usage = `${prefix}info`
     }
