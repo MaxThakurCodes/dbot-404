@@ -96,7 +96,7 @@ client.on('message', (message) => {
     try {
         cmd.run(client, message, args);
     } catch (e) {
-        console.log(e);
+        console.warn(e);
     }
 });
 client.login(process.env.TOKEN);
