@@ -8,14 +8,16 @@ module.exports = class unmute {
     }
 
     run(client, message, args) {
-    if (!message.member.hasPermission("MANAGE_ROLES") || !message.guild.owner)
+    if (!message.member.hasPermission("MANAGE_ROLES") || !message.guild.owner){
         return message.channel.send(
           "You dont have permission to use this command"
         );
-      if (!message.guild.me.hasPermission(["MANAGE_ROLES", "ADMINISTRATOR"]))
+    }
+      if (!message.guild.me.hasPermission(["MANAGE_ROLES", "ADMINISTRATOR"])){
         return message.channel.send(
           "I dont have the right permissions to use this command!"
         );
+      }
 
       let unmutee =
         message.mentions.members.first() || message.guild.member.get(args[0]);
@@ -41,4 +43,4 @@ module.exports = class unmute {
       let uchannel = message.guild.channels.find(c => c.name === "logs");
       uchannel.send(unmuteEmbed);
     }
-}
+};
