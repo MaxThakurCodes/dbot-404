@@ -1,4 +1,4 @@
-\\\\const Discord = require("discord.js");
+const Discord = require("discord.js");
 const readline = require("readline");
 const { CommandHandler } = require("djs-commands");
 const client = new Discord.Client();
