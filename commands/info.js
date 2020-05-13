@@ -22,4 +22,4 @@ module.exports = class info {
         ]);
       message.channel.send(embed);
     }
-}
+};
