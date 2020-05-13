@@ -1,5 +1,6 @@
 const config = require("../config/config.json");
 const prefix = config.prefix;
+const Discord = require("discord.js");
 module.exports = class ping {
     constructor() {
         this.name = 'embed',
