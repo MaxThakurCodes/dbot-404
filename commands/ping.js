@@ -17,7 +17,7 @@ module.exports = class ping {
             Math.floor(Math.random() * 256)
         ])
         .addField("Ping", Math.round(client.ping) + "ms");
-    message.channel
+    message.channel;
             message.react('🇴').then(() => message.react('🅾'));
 
         const filter = (reaction, user) => {
