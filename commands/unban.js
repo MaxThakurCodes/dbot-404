@@ -2,7 +2,7 @@ const config = require("../config/config.json");
 const prefix = config.prefix;
 module.exports = class unban {
     constructor() {
-        this.name = 'unban',
+        this.name = "unban",
             this.alias = ["ub"],
             this.usage = `${prefix}unban (user) (reason)`
     }
