@@ -33,7 +33,7 @@ module.exports = class report {
       if (!RlogsChannel)
         return message.channel.send("Couldn't find log channel");
 
-      message.delete().catch(O_o => {});
+      message.delete().catch(O_O => {});
       reportsChannel.send(reportEmbed);
     }
 }
