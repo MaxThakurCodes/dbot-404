@@ -89,7 +89,9 @@ client.on('message', (message) => {
     let args = message.content.split(" ");
     let command = args[0];
     let cmd = CH.getCommand(command);
-    if (!cmd) return;
+    if (!cmd) {
+      return;
+    }
     try {
         cmd.run(client, message, args);
     } catch (e) {
