@@ -21,9 +21,8 @@ client.on("ready", () => {
     },
     status: "dnd"
   });
-
-  console.log("starting");
-  let activites = [
+  
+  var activites = [
     {
       name: `Maxthakur.com`,
       type: 3,
@@ -40,7 +39,7 @@ client.on("ready", () => {
       status: "online"
     },
     {
-      name: `Max die`,
+      name: 'Max die',
       type: 3,
       status: "idle"
     }
@@ -68,8 +67,6 @@ client.on("ready", () => {
 client.on("message", async message => {
   if (message.author.bot) return;
   if (message.channel.type === "dm") {
-    console.log("[" + message.author.username + "]: " + message.content); //Message from : Message
-
     const rl = readline.createInterface({
       input: process.stdin,
       output: process.stdout
