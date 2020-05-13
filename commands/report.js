@@ -2,7 +2,7 @@ const config = require("../config/config.json");
 const prefix = config.prefix;
 module.exports = class report {
     constructor() {
-        this.name = 'report',
+        this.name = "report",
             this.alias = ["re"],
             this.usage = `${prefix}report (user) (reason)`
     }
