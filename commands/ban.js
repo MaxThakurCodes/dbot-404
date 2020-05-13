@@ -1,5 +1,6 @@
 const config = require("../config/config.json");
 const prefix = config.prefix;
+const Discord = require("discord.js");
 module.exports = class ban {
     constructor() {
         this.name = 'ban',
@@ -15,7 +16,7 @@ if (message.member.hasPermission("ADMINISTRATOR")) {
           .split(/ +/g);
         const command = args.shift().toLowerCase();
         let user = args[0];
-        let user_name = client.fetchUser(user);
+        let UserName = client.fetchUser(user);
         let reason = args[1];
         if (!user) {
           return message.channel.send("Please include a name in the command");
@@ -27,7 +28,7 @@ if (message.member.hasPermission("ADMINISTRATOR")) {
             .setColor("0x0FF0000")
             .setAuthor("Ban")
             .addField(
-              `The admin ${message.author.tag} has banned ${user_name}.`
+              `The admin ${message.author.tag} has banned ${UserName}.`
             )
             .setDescription(`${reason}`);
           client.channels.get("594473351443906581").send(embed5);
