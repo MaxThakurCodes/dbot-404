@@ -3,7 +3,7 @@ const prefix = config.prefix;
 const Discord = require("discord.js");
 module.exports = class ban {
     constructor() {
-        this.name = 'ban',
+        this.name = "ban",
             this.alias = ["b"],
             this.usage = `${prefix}ban`
     }
