@@ -10,10 +10,6 @@ const CH = new CommandHandler({
 require("dotenv").config();
 
 client.on("ready", () => {
-  console.log("ready");
-});
-
-client.on("ready", () => {
   client.user.setPresence({
     game: {
       name: "the bot starting...",
