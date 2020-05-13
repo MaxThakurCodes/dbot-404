@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 const prefix = config.prefix;
 module.exports = class ping {
     constructor() {
-        this.name = 'ping',
+        this.name = "ping",
             this.alias = ["ping"],
             this.usage = `${prefix}ping`
     }
