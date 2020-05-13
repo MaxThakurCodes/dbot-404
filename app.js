@@ -1,10 +1,6 @@
 const Discord = require("discord.js");
 const readline = require("readline");
-const ytdl = require("ytdl-core");
-const beautify = require("beautify");
-const util = require("util");
 const { CommandHandler } = require("djs-commands");
-const config = require("./config/config.json");
 const client = new Discord.Client();
 const prefix = "404";
 const CH = new CommandHandler({
