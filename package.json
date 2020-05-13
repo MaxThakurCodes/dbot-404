@@ -7,7 +7,7 @@
     "start": ""
   },
   "author": "Max Thakur",
-  "license": "ISC",
+  "license": "GNU Affero General Public License v3.0",
   "dependencies": {
     "beautify": "0.0.8",
     "discord.js": "^11.5.1",
