@@ -1,4 +1,7 @@
 # Welcome
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7940562fd3034362a341023fd1c6ef29)](https://app.codacy.com/manual/MaxThakurCodes/dbot-404?utm_source=github.com&utm_medium=referral&utm_content=MaxThakurCodes/dbot-404&utm_campaign=Badge_Grade_Dashboard)
+
   Hey, this is a discord bot called "404 bot" I open sourced the code because I felt like I stopped using discord bots as a     source of income!
   ## How to use this
    Download the latest version bot from [here](https://github.com/maxistheadmin/dbot-404/releases).                           
