@@ -18,10 +18,10 @@ module.exports = class ping {
         ])
         .addField("Ping", Math.round(client.ping) + "ms");
     message.channel;
-            message.react('🇴').then(() => message.react('🅾'));
+            message.react("🇴").then(() => message.react("🅾"));
 
         const filter = (reaction, user) => {
-            return ['🇴', '🅾'].includes(reaction.emoji.name) && user.id === message.author.id;
+            return ["🇴", "🅾"].includes(reaction.emoji.name) && user.id === message.author.id;
         };
 
         message.awaitReactions(filter, {
