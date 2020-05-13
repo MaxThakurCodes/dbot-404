@@ -36,7 +36,7 @@ module.exports = class unmute {
         ])
         .setAuthor(`${message.guild.name} ModLogs`, message.guild.iconURL)
         .addField("Moderation:", "Unmute")
-        .addField("Unmutee:", mutee.user.username)
+        .addField("Unmutee:", unmutee.user.username)
         .addField("Moderator:", message.author.username)
         .addField("Reason:", UMreason)
         .setFooter("Date:", message.createdAt);
