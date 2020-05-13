@@ -2,7 +2,7 @@ const config = require("../config/config.json");
 const prefix = config.prefix;
 module.exports = class mute {
     constructor() {
-        this.name = 'mute',
+        this.name = "mute",
             this.alias = ["m"],
             this.usage = `${prefix}mute (user) (reason)`
     }
