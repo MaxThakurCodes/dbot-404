@@ -3,13 +3,13 @@ const prefix = config.prefix;
 const Discord = require("discord.js");
 module.exports = class ping {
     constructor() {
-        this.name = 'embed',
+        this.name = "embed",
             this.alias = ["em", "e"],
             this.usage = `${prefix}embed`
     }
     run(client, message, args) {
-var embed = new Discord.RichEmbed()
-        .addField(
+        var embed = new Discord.RichEmbed()
+         .addField(
           `${message.content
             .split(" ")
             .slice(1)
