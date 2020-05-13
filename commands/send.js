@@ -1,8 +1,8 @@
-const config = require("../config/config.json");
+\const config = require("../config/config.json");
 const prefix = config.prefix;
 module.exports = class ping {
     constructor() {
-        this.name = 'send',
+        this.name = "send",
             this.alias = ["s"],
             this.usage = `${prefix}send (object)`
     }
