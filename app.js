@@ -65,24 +65,6 @@ client.on("ready", () => {
   );
 });
 
-client.on("guildMemberAdd", member => {
-  console.log(`[LOGS] The user ${member.user.username} has joined`);
-  console.log(member);
-
-  var role = member.guild.roles.find("name", "UNVERIFIED");
-
-  member.addRole(role);
-  let embed = new Discord.RichEmbed()
-    .setColor([
-      Math.floor(Math.random() * 256),
-      Math.floor(Math.random() * 256),
-      Math.floor(Math.random() * 256)
-    ])
-    .setTitle("A User has Joined!")
-    .setDescription(` The memeber ${member.user.username} has joined`);
-  //message.channel.send(embed);
-});
-
 client.on("message", async message => {
   if (message.author.bot) return;
   if (message.channel.type === "dm") {
