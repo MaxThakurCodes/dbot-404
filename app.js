@@ -24,12 +24,12 @@ client.on("ready", () => {
   
   var activites = [
     {
-      name: `Maxthakur.com`,
+      name: "Maxthakur.com",
       type: 3,
       status: "idle"
     },
     {
-      name: `with Max's code`,
+      name: "with Max's code",
       type: 0,
       status: "dnd"
     },
@@ -39,7 +39,7 @@ client.on("ready", () => {
       status: "online"
     },
     {
-      name: 'Max die',
+      name: "Max die",
       type: 3,
       status: "idle"
     }
