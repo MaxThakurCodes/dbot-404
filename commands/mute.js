@@ -8,15 +8,16 @@ module.exports = class mute {
     }
 
     run(client, message, args) {
-if (!message.member.hasPermission("MANAGE_ROLES") || !message.guild.owner)
+if (!message.member.hasPermission("MANAGE_ROLES") || !message.guild.owner) {
         return message.channel.send(
           "You dont have permission to use this command"
         );
-      if (!message.guild.me.hasPermission(["MANAGE_ROLES", "ADMINISTRATOR"]))
+}
+      if (!message.guild.me.hasPermission(["MANAGE_ROLES", "ADMINISTRATOR"])){ 
         return message.channel.send(
           "I dont have the right permissions to use this command!"
         );
-
+      }
       let mutee =
         message.mentions.members.first() || message.guild.member.get(args[0]);
       if (!mutee)
@@ -70,4 +71,4 @@ if (!message.member.hasPermission("MANAGE_ROLES") || !message.guild.owner)
       let schannel = message.guild.channels.find(c => c.name === "logs");
       schannel.send(embed);
     }
-}
+};
