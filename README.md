@@ -9,7 +9,7 @@
    Unzip it then make sure you have npm & node installed then run `npm install`.                                               
    Put your token in config.json, and define your prefix also in there.                                                       
    Finally, run `node app.js` and voila there it should be running!.                                                           
-  ## Have any reccommendations
+  ## Have any recommendations
    Make an issue and just list what you want me to make and Ill get around to it in my free time!
   ## Have any questions
    Add `Max Thakur#0831` on discord, or make an issue and Ill get around to fixing, or helping you out!
