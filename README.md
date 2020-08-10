@@ -19,4 +19,4 @@
    Here is my [Patreon](https://www.patreon.com/MaxThakurCodes). 
    [Want to buy me a cup of coffee?](https://www.buymeacoffee.com/MaxThakurCodes).
    ## License
-   Licensed under the GNU Affero General Public License v3.0, see the separate [LICENSE.md]           (https://github.com/MaxThakurCodes/dbot-404/blob/master/LICENSE) file.
+   Licensed under the GNU Affero General Public License v3.0, see the separate [LICENSE.md](https://github.com/MaxThakurCodes/dbot-404/blob/master/LICENSE) file.
